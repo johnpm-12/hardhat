@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/@nomicfoundation/hardhat-chai-matchers-viem.svg)](https://www.npmjs.com/package/@nomicfoundation/hardhat-chai-matchers-viem)
+[![npm](https://img.shields.io/npm/v/hardhat-chai-matchers-viem.svg)](https://www.npmjs.com/package/hardhat-chai-matchers-viem)
 
 # Hardhat Chai Matchers Viem
 
@@ -11,19 +11,19 @@ It is based on @nomicfoundation/hardhat-chai-matchers which is for ethers. Check
 We recommend using npm 7 or later. If you do that, then you just need to install the plugin itself:
 
 ```bash
-npm install --save-dev @nomicfoundation/hardhat-chai-matchers-viem
+npm install --save-dev hardhat-chai-matchers-viem
 ```
 
 If you are using an older version of npm, you'll also need to install all the packages used by the plugin.
 
 ```bash
-npm install --save-dev @nomicfoundation/hardhat-chai-matchers-viem chai@4 @nomicfoundation/hardhat-viem viem
+npm install --save-dev hardhat-chai-matchers-viem chai@4 @nomicfoundation/hardhat-viem viem
 ```
 
 That's also the case if you are using yarn:
 
 ```bash
-yarn add --dev @nomicfoundation/hardhat-chai-matchers-viem chai@4 @nomicfoundation/hardhat-viem viem
+yarn add --dev hardhat-chai-matchers-viem chai@4 @nomicfoundation/hardhat-viem viem
 ```
 
 ### Usage
@@ -31,7 +31,7 @@ yarn add --dev @nomicfoundation/hardhat-chai-matchers-viem chai@4 @nomicfoundati
 After installing it, add the plugin to your Hardhat config:
 
 ```js
-require("@nomicfoundation/hardhat-chai-matchers-viem");
+require("hardhat-chai-matchers-viem");
 ```
 
 Then you'll be able to use the matchers in your tests:

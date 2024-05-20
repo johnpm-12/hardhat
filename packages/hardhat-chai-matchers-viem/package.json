@@ -1,9 +1,9 @@
 {
-  "name": "@nomicfoundation/hardhat-chai-matchers-viem",
+  "name": "hardhat-chai-matchers-viem",
   "version": "2.0.7",
   "description": "Hardhat utils for testing",
-  "homepage": "https://github.com/nomicfoundation/hardhat/tree/main/packages/hardhat-chai-matchers-viem",
-  "repository": "github:nomicfoundation/hardhat",
+  "homepage": "https://github.com/johnpm-12/hardhat/tree/feat/add-chai-matchers-viem/packages/hardhat-chai-matchers-viem",
+  "repository": "github:johnpm-12/hardhat",
   "author": "Nomic Foundation",
   "license": "MIT",
   "main": "index.js",

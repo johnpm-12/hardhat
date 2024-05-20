@@ -1,4 +1,10 @@
-# @nomicfoundation/hardhat-chai-matchers-viem
+# hardhat-chai-matchers-viem
+
+## 2.0.8
+
+### Minor Changes
+
+- : Readme updates to not get confused with an official hardhat package
 
 ## 2.0.7
 

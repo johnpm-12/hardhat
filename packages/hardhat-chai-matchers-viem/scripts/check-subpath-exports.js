@@ -5,15 +5,10 @@ const assert = require("assert");
 // run as part of the "test" script to avoid having to build the project
 // every time the tests are run.
 
-const {
-  PANIC_CODES,
-} = require("@nomicfoundation/hardhat-chai-matchers-viem/panic");
+const { PANIC_CODES } = require("hardhat-chai-matchers-viem/panic");
 
 assert(PANIC_CODES !== undefined);
 
-const {
-  anyUint,
-  anyValue,
-} = require("@nomicfoundation/hardhat-chai-matchers-viem/withArgs");
+const { anyUint, anyValue } = require("hardhat-chai-matchers-viem/withArgs");
 assert(anyUint !== undefined);
 assert(anyValue !== undefined);
