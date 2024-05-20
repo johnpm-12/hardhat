@@ -2,6 +2,8 @@
 
 # Hardhat Chai Matchers Viem
 
+Note: THIS IS NOT AN OFFICIAL HARDHAT PACKAGE. IT WAS FORKED FROM ONE.
+
 This plugin adds Ethereum-specific capabilities to the [Chai](https://chaijs.com/) assertion library, making your smart contract tests easy to write and read.
 
 It is based on @nomicfoundation/hardhat-chai-matchers which is for ethers. Check [its documentation](https://hardhat.org/hardhat-chai-matchers/docs) to learn more.
